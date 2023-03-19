@@ -1,5 +1,5 @@
 import "./Wave.css";
 
-export default function Wave() {
-    return <div className="wave"></div>;
+export default function Wave({ waveClass = "" }) {
+    return <div className={`${waveClass}`}></div>;
 }

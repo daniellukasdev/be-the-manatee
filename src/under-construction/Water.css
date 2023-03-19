@@ -1,0 +1,104 @@
+.water { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  top:5%;
+  left:0;
+  background: hsl(222, 56%, 32%);
+}
+
+.water-round-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  width: 28rem;
+  height: 28rem;
+  background: hsl(72deg 36% 96%);
+  border-radius: 50%;
+}
+
+.water-wave-container {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  animation: water-waves linear infinite;
+}
+
+.water-wave1,
+.water-wave2,
+.water-wave3,
+.water-deep {
+  position: absolute;
+  width: 200%;
+  animation: inherit;
+}
+
+.water-wave1 {
+  top: 8%;
+  left: -50%;
+  height: 200%;
+  color: hsl(168deg 72% 84%);
+  background: hsl(168deg 72% 84%);
+  border-radius: 46% / 48%;
+  opacity: 1;
+  animation-duration: 8s;
+}
+
+.water-wave2 {
+  top: 16%;
+  left: -45%;
+  height: 196%;
+  color: hsl(196deg 72% 60%);
+  background: hsl(211deg 48% 48%);
+  border-radius: 44% / 46%;
+  opacity: 0.8;
+  animation-duration: 10s;
+}
+
+.water-wave3 {
+  top: 24%;
+  left: -45%;
+  height: 196%;
+  color: hsl(222deg 54% 32%);
+  background: hsl(222deg 54% 32%);
+  border-radius: 42% / 44%;
+  opacity: .8;
+  animation-duration: 12s;
+}
+
+.water-deep {
+  top: 32%;
+  left: -45%;
+  height: 200%;
+  /* background: hsl(240deg 60% 12%); */
+  background: radial-gradient(
+    closest-side,
+    hsl(240deg 60% 12%),
+    hsl(222deg 54% 32% / 0%)
+    );
+  border: 0px;
+  border-radius: 50%;
+  /* box-shadow: 
+    inset 0px 0px 96px 108px hsl(222deg 54% 32%),
+    inset 0px 0px 96px 108px hsl(222deg 54% 32%); */
+  opacity: 1;
+  animation: none;
+}
+
+@keyframes water-waves {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

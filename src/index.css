@@ -1,0 +1,36 @@
+body {
+  /* hsl(240deg 60% 12%) */
+  --color-water-deep-h: 222;
+  --color-water-deep-s: 56%;
+  --color-water-deep-l: 32%;
+  /* hsl(222, 56%, 32%) */
+  --color-water-dark-h: 222;
+  --color-water-dark-s: 56%;
+  --color-water-dark-l: 32%;
+
+  --water-deep: hsl(
+    var(--color-water-deep-h),
+    var(--color-water-deep-s),
+    calc(var(--color-water-deep-l))
+  );
+
+  --water-dark: hsl(
+    var(--color-water-dark-h),
+    var(--color-water-dark-s),
+    calc(var(--color-water-dark-l))
+  );
+
+
+  width: 100%;
+  height: 100%;
+  background: hsl(222, 83%, 84%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
