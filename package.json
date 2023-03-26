@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "nodemon react-scripts start",
-    "devChromium": "BROWSER='none' npm start",
+    "devNone": "BROWSER='none' npm start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

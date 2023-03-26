@@ -43,17 +43,17 @@ export default function Shark2({ sharkClass2 = "" }) {
         >
           <stop
             offset="0"
-            style={{ stopColor: "rgb(36,63,128)", stopOpacity: "1" }}
+            style={{ stopColor: "hsl(222deg 48% 40%)", stopOpacity: "1" }}
             id="stop205"
           />
           <stop
             offset="0.47"
-            style={{ stopColor: "rgb(53,88,154)", stopOpacity: "1" }}
+            style={{ stopColor: "hsl(218 48% 42%)", stopOpacity: "1" }}
             id="stop207"
           />
           <stop
             offset="1"
-            style={{ stopColor: "rgb(58,95,161)", stopOpacity: "1" }}
+            style={{ stopColor: "hsl(220 48% 48%)", stopOpacity: "1" }}
             id="stop209"
           />
         </linearGradient>
