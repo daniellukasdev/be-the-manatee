@@ -14,6 +14,7 @@ export default function BeTheManateeLogo({ logoClass = "" }) {
       <Bubbles bubblesClass="bubbles-small" />
       <KelpOne kelpClass="kelp1" />
       <Manatee manateeClass="manatee" />
+      <Bubbles bubblesClass="bubbles-large" />
       <KelpTwo kelpClass="kelp2" />
       <Shark1 sharkClass1="shark1" />
       <Shark2 sharkClass2="shark2" />

@@ -6,7 +6,15 @@
 }
 
 .bubbles-small {
-    left: 0%;
+    top: 40%;
+    left: 12%;
+}
+
+.bubbles-large {
+    top: 24%;
+    left: 100%;
+    z-index: 1;
+    scale: 1.5;
 }
 
 .bubble {
@@ -19,26 +27,83 @@
 }
 
 .bubble-1 {
-    width: 1rem;
-    height: 1rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    animation: bubble-1-wobble 4s infinite linear;
 }
 
 .bubble-2 {
+    top: 12px;
+    right: 60px;
     width: 2rem;
     height: 2rem;
 }
 
 .bubble-3 {
-    width: 3rem;
-    height: 3rem;
+    top: 8px;
+    right: 32px;
+    width: 2.6rem;
+    height: 2.6rem;
 }
 
 .bubble-4 {
-    width: 4rem;
-    height: 4rem;
+    top: 40px;
+    right: 116px;
+    width: 3.6rem;
+    height: 3.6rem;
 }
 
 .bubble-5 {
+    top: 46px;
+    right: 72px;
     width: 5rem;
     height: 5rem;
 }
+
+.bubbles-large .bubble-1 {
+    top: 0px;
+    left: 72px;
+    width: 1.4rem;
+    height: 1.4rem;
+    animation: bubble-1-wobble 4s infinite linear;
+}
+
+.bubbles-large .bubble-2 {
+    width: 2rem;
+    height: 2rem;
+    top: 0px;
+    left: 104px;
+}
+
+.bubbles-large .bubble-3 {
+    width: 2.6rem;
+    height: 2.6rem;
+    top: 8px;
+    left: 48px;
+}
+
+.bubbles-large .bubble-4 {
+    width: 3.6rem;
+    height: 3.6rem;
+    top: 24px;
+    left: 96px;
+}
+
+.bubbles-large .bubble-5 {
+    width: 5rem;
+    height: 5rem;
+    top: 48px;
+    left: 8px;
+}
+
+@keyframes bubble-1-wobble {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-8px, 4px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+  }
