@@ -65,7 +65,7 @@
     left: 72px;
     width: 1.4rem;
     height: 1.4rem;
-    animation: bubble-1-wobble 4s infinite linear;
+    animation: bubble-1-wobble 6s infinite ease;
 }
 
 .bubbles-large .bubble-2 {
