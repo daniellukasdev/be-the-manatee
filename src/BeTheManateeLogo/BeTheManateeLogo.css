@@ -4,17 +4,20 @@
     left: 12.2%;
     z-index: 9;
     transform: rotate(-9.6deg);
-    scale: 1.4;
     transform-origin: bottom;
+    scale: 1.4;
+    animation: kelp1-wave 8s infinite linear;
   }
   
   .kelp2 {
     position: absolute;
-    bottom: -11.5%;
+    bottom: -21.6%;
     right: 18%;
     z-index: 9;
-    transform: rotate(-6deg);
+    transform-origin: bottom;
+    transform: rotate(-3.4deg);
     scale: 1.4;
+    animation: kelp2-wave 10s infinite linear;
   }
   
   .manatee {
@@ -24,6 +27,7 @@
     z-index: 8;
     transform: rotate(0deg);
     scale: 1.1;
+    animation: float 8s infinite linear;
   }
   
   .shark1 {
@@ -32,6 +36,7 @@
     right: 8%;
     z-index: 3;
     scale: 1.4;
+    animation: float 6s infinite linear;
   }
   
   .shark2 {
@@ -40,4 +45,39 @@
     left: 0%;
     z-index: 2;
     scale: 1;
+    animation: float 10s infinite linear;
+  }
+
+  @keyframes float {
+    0% {
+      transform: rotate(0deg) translate(-2px) rotate(0deg);
+  
+    }
+    100% {
+      transform: rotate(360deg) translate(-2px) rotate(-360deg);
+    }
+  }
+
+  @keyframes kelp1-wave {
+    0% {
+      transform: rotate(-12.6deg);
+    }
+    50% {
+      transform: rotate(-9.6deg);
+    }
+    100% {
+      transform: rotate(-12.6deg);
+    }
+  }
+
+  @keyframes kelp2-wave {
+    0% {
+      transform: rotate(-2.4deg);
+    }
+    50% {
+      transform: rotate(-3.4deg);
+    }
+    100% {
+      transform: rotate(-2.4deg);
+    }
   }
