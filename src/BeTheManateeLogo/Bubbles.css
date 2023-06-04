@@ -1,109 +1,115 @@
 .bubble-container {
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
 }
 
 .bubbles-small {
-    top: 40%;
-    left: 12%;
+  top: 40%;
+  left: 12%;
 }
 
 .bubbles-large {
-    top: 24%;
-    left: 100%;
-    z-index: 1;
-    scale: 1.5;
+  top: 24%;
+  left: 100%;
+  z-index: 1;
+  scale: 1.5;
 }
 
 .bubble {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background: hsl(226deg 56% 32%);
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: hsl(226deg 56% 32%);
+  border-radius: 50%;
 }
 
 .bubble-1 {
-    width: 1.4rem;
-    height: 1.4rem;
-    animation: bubble-1-wobble 4s infinite linear;
+  width: 1.4rem;
+  height: 1.4rem;
+  animation: bubble-1-wobble 16s infinite linear;
 }
 
 .bubble-2 {
-    top: 12px;
-    right: 60px;
-    width: 2rem;
-    height: 2rem;
+  top: 12px;
+  right: 60px;
+  width: 2rem;
+  height: 2rem;
+  animation: bubble-1-wobble 14s infinite linear;
 }
 
 .bubble-3 {
-    top: 8px;
-    right: 32px;
-    width: 2.6rem;
-    height: 2.6rem;
+  top: 8px;
+  right: 32px;
+  width: 2.6rem;
+  height: 2.6rem;
+  animation: bubble-1-wobble 12s infinite linear;
 }
 
 .bubble-4 {
-    top: 40px;
-    right: 116px;
-    width: 3.6rem;
-    height: 3.6rem;
+  top: 40px;
+  right: 116px;
+  width: 3.6rem;
+  height: 3.6rem;
+  animation: bubble-1-wobble 10s infinite linear;
 }
 
 .bubble-5 {
-    top: 46px;
-    right: 72px;
-    width: 5rem;
-    height: 5rem;
+  top: 46px;
+  right: 72px;
+  width: 5rem;
+  height: 5rem;
+  animation: bubble-1-wobble 8s infinite linear;
 }
 
 .bubbles-large .bubble-1 {
-    top: 0px;
-    left: 72px;
-    width: 1.4rem;
-    height: 1.4rem;
-    animation: bubble-1-wobble 6s infinite ease;
+  top: 0px;
+  left: 72px;
+  width: 1.4rem;
+  height: 1.4rem;
+  animation: bubble-1-wobble 14s infinite linear;
 }
 
 .bubbles-large .bubble-2 {
-    width: 2rem;
-    height: 2rem;
-    top: 0px;
-    left: 104px;
+  width: 2rem;
+  height: 2rem;
+  top: 0px;
+  left: 104px;
+  animation: bubble-1-wobble 12s infinite linear;
 }
 
 .bubbles-large .bubble-3 {
-    width: 2.6rem;
-    height: 2.6rem;
-    top: 8px;
-    left: 48px;
+  width: 2.6rem;
+  height: 2.6rem;
+  top: 8px;
+  left: 48px;
+  animation: bubble-1-wobble 10s infinite linear;
 }
 
 .bubbles-large .bubble-4 {
-    width: 3.6rem;
-    height: 3.6rem;
-    top: 24px;
-    left: 96px;
+  width: 3.6rem;
+  height: 3.6rem;
+  top: 24px;
+  left: 96px;
+  animation: bubble-1-wobble 8s infinite linear;
 }
 
 .bubbles-large .bubble-5 {
-    width: 5rem;
-    height: 5rem;
-    top: 48px;
-    left: 8px;
+  width: 5rem;
+  height: 5rem;
+  top: 48px;
+  left: 8px;
+  animation: bubble-1-wobble 6s infinite linear;
 }
 
 @keyframes bubble-1-wobble {
-    0% {
-      transform: translate(0px, 0px);
-    }
-    50% {
-        transform: translate(-8px, 4px);
-    }
-    100% {
-        transform: translate(0px, 0px);
-    }
+  0% {
+    transform: rotate(0deg) translate(-4px) rotate(0deg);
+
   }
+  100% {
+    transform: rotate(360deg) translate(-4px) rotate(-360deg);
+  }
+}
