@@ -17,6 +17,11 @@ const Title = ({ titleClass = '' }) => {
       }}
       id="btm-title-svg"
     >
+      <defs>
+      <filter id="drop-shadow">
+        <feDropShadow  dx="0" dy="0" stdDeviation="2" floodColor={'rgb(0 0 0)'} />
+      </filter>
+      </defs>
       <g
         id="title-group"
         style={{
@@ -25,6 +30,7 @@ const Title = ({ titleClass = '' }) => {
             strokeLinejoin: "round",
             strokeMiterlimit: "2",
           }}
+        filter="url(#drop-shadow)"
         transform="matrix(3.6533178,0,0,3.6533178,-92.691339,-270.12864)"
       >
         <path
