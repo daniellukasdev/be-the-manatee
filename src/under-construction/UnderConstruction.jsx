@@ -10,6 +10,8 @@ export default function UnderConstruction() {
       </div>
       <div className="under-construction-body">
         <BeTheManateeLogo logoClass="logo" />
+
+        <div className="coming-soon">COMING SOON!</div>
         
       </div>
     </div>

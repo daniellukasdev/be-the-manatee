@@ -48,6 +48,10 @@
     animation: float 10s infinite linear;
   }
 
+  svg {
+    filter: drop-shadow(2px 2px 12px hsl(240deg 60% 12%));
+  }
+
   @keyframes float {
     0% {
       transform: rotate(0deg) translate(-2px) rotate(0deg);

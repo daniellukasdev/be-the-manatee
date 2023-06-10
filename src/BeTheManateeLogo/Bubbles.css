@@ -25,6 +25,7 @@
   background: hsl(226deg 56% 32%);
   background: hsl(226deg 48% 39%);
   border-radius: 50%;
+  filter: drop-shadow(2px 2px 12px hsl(240deg 60% 12%));
 }
 
 .bubble-1 {

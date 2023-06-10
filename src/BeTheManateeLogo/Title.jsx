@@ -5,9 +5,9 @@ const Title = ({ titleClass = '' }) => {
   return (
     <svg
     className={`${titleClass}`}
-      width="512"
-      height="256"
-      viewBox="0 0 512 256"
+      width="1024"
+      height="512"
+      viewBox="0 0 1024 512"
       version="1.1"
       style={{
         clipRule: "evenodd",
@@ -18,9 +18,9 @@ const Title = ({ titleClass = '' }) => {
       id="btm-title-svg"
     >
       <defs>
-      <filter id="drop-shadow">
-        <feDropShadow  dx="0" dy="0" stdDeviation="2" floodColor={'rgb(0 0 0)'} />
-      </filter>
+      {/* <filter id="drop-shadow" x="0" y="0" width="100%" height="100%" filterUnits="userSpaceOnUse">
+        <feDropShadow  dx="0" dy="0" stdDeviation="4" floodColor={'hsl(240deg 60% 12%)'} />
+      </filter> */}
       </defs>
       <g
         id="title-group"
@@ -31,7 +31,7 @@ const Title = ({ titleClass = '' }) => {
             strokeMiterlimit: "2",
           }}
         filter="url(#drop-shadow)"
-        transform="matrix(3.6533178,0,0,3.6533178,-92.691339,-270.12864)"
+        transform="matrix(3.6533178,0,0,3.6533178,156,-180)"
       >
         <path
           id="title-be-the"

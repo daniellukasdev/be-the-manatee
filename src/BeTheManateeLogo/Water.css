@@ -19,6 +19,8 @@
   height: 28rem;
   background: hsl(72deg 36% 96%);
   border-radius: 50%;
+  filter: drop-shadow(2px 2px 24px hsl(222, 84%, 72%));
+  filter: drop-shadow(2px 2px 12px hsl(240deg 60% 12%));
 }
 
 .water-wave-container {
