@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/be-the-manatee/static/css/main.ce48aa60.css",
-    "main.js": "/be-the-manatee/static/js/main.4c332a11.js",
-    "static/media/Arial_Narrow_Bold.ttf": "/be-the-manatee/static/media/Arial_Narrow_Bold.c8a8e676a8fad484b77b.ttf",
-    "index.html": "/be-the-manatee/index.html",
-    "main.ce48aa60.css.map": "/be-the-manatee/static/css/main.ce48aa60.css.map",
-    "main.4c332a11.js.map": "/be-the-manatee/static/js/main.4c332a11.js.map"
+    "main.css": "/bethemanatee.com/static/css/main.7d928bc3.css",
+    "main.js": "/bethemanatee.com/static/js/main.4c332a11.js",
+    "static/media/Arial_Narrow_Bold.ttf": "/bethemanatee.com/static/media/Arial_Narrow_Bold.c8a8e676a8fad484b77b.ttf",
+    "index.html": "/bethemanatee.com/index.html",
+    "main.7d928bc3.css.map": "/bethemanatee.com/static/css/main.7d928bc3.css.map",
+    "main.4c332a11.js.map": "/bethemanatee.com/static/js/main.4c332a11.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce48aa60.css",
+    "static/css/main.7d928bc3.css",
     "static/js/main.4c332a11.js"
   ]
 }
