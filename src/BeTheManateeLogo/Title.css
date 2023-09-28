@@ -6,8 +6,14 @@
 }
 
 .logo-title {
-  position: absolute;
-  top: -72%;
+  position: relative;
+  top: 2rem;
+}
+
+@container (min-width: 750px) {
+  .logo-title {
+    top: -4rem;
+  }
 }
 
 .title-be-the {

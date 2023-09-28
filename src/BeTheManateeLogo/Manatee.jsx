@@ -6,6 +6,7 @@ export default function Manatee({ manateeClass = '' }) {
       className={`${manateeClass}`}
       width="326.98914"
       height="181.42627"
+      preserveAspectRatio="xMaxYMid meet"
       viewBox="0 0 326.98914 181.42627"
       version="1.1"
       style={{

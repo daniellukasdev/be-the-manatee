@@ -6,6 +6,7 @@ export default function Shark2({ sharkClass2 = "" }) {
       className={`${sharkClass2}`}
       width="141.72119"
       height="60.131088"
+      preserveAspectRatio="xMaxYMid meet"
       viewBox="0 0 141.72119 60.131088"
       version="1.1"
       style={{

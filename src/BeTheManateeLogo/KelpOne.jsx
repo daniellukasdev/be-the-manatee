@@ -6,6 +6,7 @@ export default function KelpOne({ kelpClass = "" }) {
       <svg
         width="84"
         height="204"
+        preserveAspectRatio="xMaxYMid meet"
         // viewBox="0 0 84 204"
         version="1.1"
         style={{

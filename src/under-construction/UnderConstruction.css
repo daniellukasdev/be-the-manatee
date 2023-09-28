@@ -1,11 +1,11 @@
 .under-construction {
   position: relative;
-  margin: 50% auto;;
-  width: auto;
-  height: auto;
+  margin: auto;;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -20,12 +20,13 @@
 }
 
 .under-construction-body {
+  container-type: inline-size;
   margin: auto;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -35,8 +36,9 @@
   align-items: center;
   position: relative;
   margin: 0;
-  width: 100%;
-  height: 100%;
+  width: 28rem;
+  height: 28rem;
+  scale: 0.65;
 }
 
 .coming-soon {
@@ -44,7 +46,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 48px;
+  /* top: 48px; */
   margin: 0px auto;
   width: 100%;
   font-size: 48px;
@@ -52,4 +54,19 @@
   font-family: "Arial Narrow Bold";
   color: hsl(72deg 36% 96%);
   filter: drop-shadow(2px 2px 8px hsl(240deg 60% 12%));
+}
+
+
+@container (min-width: 750px) {
+  
+  .logo {
+    margin: 0;
+    width: 28rem;
+    height: 28rem;
+    scale: 1
+  }
+
+  .coming-soon {
+    top: 48px;
+  }
 }
