@@ -9,7 +9,7 @@ const Title = ({ titleClass = '' }) => {
       // width="1024"
       // height="512"
       preserveAspectRatio="xMaxYMid meet"
-      viewBox="0 0 1024 256"
+      viewBox="0 84 1024 256"
       version="1.1"
       style={{
         clipRule: "evenodd",

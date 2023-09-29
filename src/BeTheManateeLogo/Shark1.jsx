@@ -4,8 +4,8 @@ export default function Shark1({ sharkClass1 = "" }) {
   return (
     <svg
       className={`${sharkClass1}`}
-      width="227.50081"
-      height="96.526642"
+      // width="227.50081"
+      // height="96.526642"
       preserveAspectRatio="xMaxYMid meet"
       viewBox="0 0 227.50081 96.526642"
       version="1.1"

@@ -7,8 +7,12 @@ export default function UnderConstruction() {
     <div className="under-construction">
       {/* <div className="under-construction-header"></div> */}
       <div className="under-construction-body">
-      <Title titleClass="logo-title" />
-        <BeTheManateeLogo logoClass="logo" />
+        <div className="logo-title-holder">
+          <Title titleClass="logo-title" />
+        </div>
+        <div className="logo-holder">
+          <BeTheManateeLogo logoClass="logo" />
+        </div>
 
         <div className="coming-soon">COMING SOON!</div>
         

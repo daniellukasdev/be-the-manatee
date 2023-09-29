@@ -7,7 +7,8 @@
 
 .logo-title {
   position: relative;
-  top: 2rem;
+  /* top: 2rem; */
+  margin: 2rem 0rem 0rem 0rem;
 }
 
 @container (min-width: 750px) {
