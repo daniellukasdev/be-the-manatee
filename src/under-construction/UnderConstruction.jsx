@@ -13,9 +13,7 @@ export default function UnderConstruction() {
         <div className="logo-holder">
           <BeTheManateeLogo logoClass="logo" />
         </div>
-
         <div className="coming-soon">COMING SOON!</div>
-        
       </div>
     </div>
   );
