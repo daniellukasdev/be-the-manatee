@@ -9,15 +9,15 @@ const Title = ({ titleClass = '' }) => {
       // width="1024"
       // height="512"
       preserveAspectRatio="xMaxYMid meet"
-      viewBox="0 84 1024 256"
+      viewBox="252 84 512 256"
       version="1.1"
       style={{
         clipRule: "evenodd",
         fillRule: "evenodd",
         strokeLinejoin: "round",
         strokeMiterlimit: "2",
-        width:"inherit",
-        height:"inherit",
+        // width:"inherit",
+        // height:"inherit",
         overflow: "visible"
       }}
       id="btm-title-svg"
