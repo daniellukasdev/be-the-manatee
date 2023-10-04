@@ -4,16 +4,18 @@ export default function KelpTwo({ kelpClass = "" }) {
   return (
     <div className={`${kelpClass}`}>
       <svg
-        width="120"
-        height="204"
+        // width="120"
+        // height="204"
         preserveAspectRatio="xMaxYMid meet"
-        viewBox="0 0 120 204"
+        viewBox="-224 -212 348 348"
         version="1.1"
         style={{
           clipRule: "evenodd",
           fillRule: "evenodd",
           strokeLinejoin: "round",
           strokeMiterlimit: "2",
+          width:"inherit",
+          height:"inherit",
         }}
         id="kelp02"
       >
@@ -30,8 +32,10 @@ export default function KelpTwo({ kelpClass = "" }) {
                 fillRule: "evenodd",
                 strokeLinejoin: "round",
                 strokeMiterlimit: "2",
+                width:"inherit",
+                height:"inherit",
               }}
-              id="pathkelp02"
+              id="path-kelp02"
             />
           </g>
         </g>

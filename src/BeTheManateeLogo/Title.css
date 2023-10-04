@@ -1,5 +1,5 @@
 .title-container {
-  width: 100%;
+  /* width: 100%; */
   font-family: "Arial";
   font-style: narrow;
   font-weight: 900;
@@ -8,7 +8,7 @@
 .logo-title {
   position: relative;
   /* top: 2rem; */
-  margin: 2rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
 
 @container (min-width: 750px) {

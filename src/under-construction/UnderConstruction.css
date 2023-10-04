@@ -1,33 +1,36 @@
 .under-construction {
-  position: relative;
-  margin: auto;;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
+  margin: auto;
+  padding: 2rem;
+  /* width: 100%; */
+  height: 100%;
 }
 
 .under-construction-header {
-  margin: auto;
-  width: 100%;
-  height: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 8%;
+  /* height: auto; */
 }
 
 .under-construction-body {
   container-type: inline-size;
-  margin: auto;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin: 0;
+  width: 100%;
+  /* height: 100%; */
+  /* height: auto; */
 }
 
 .logo-title-holder,
@@ -42,21 +45,21 @@
 
 .logo-title-holder {
   width: 100%;
-  height: 12%;
+  height: 100%;
 }
 
 .logo-holder {
   width: 100%;
   /* height: 28rem; */
-  height: calc(50% - 3.5rem);
+  /* height: calc(50% - 3.5rem); */
 }
 
 .logo {
   /* width: 100%; */
-  height: 100%;
+  /* height: 100%; */
   /* width: 28rem; */
   /* height: 28rem; */
-  scale: 0.65;
+  scale: 0.6;
 }
 
 .coming-soon {

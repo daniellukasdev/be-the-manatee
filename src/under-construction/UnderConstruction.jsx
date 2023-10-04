@@ -5,11 +5,12 @@ import "./UnderConstruction.css";
 export default function UnderConstruction() {
   return (
     <div className="under-construction">
-      {/* <div className="under-construction-header"></div> */}
-      <div className="under-construction-body">
+      <div className="under-construction-header">
         <div className="logo-title-holder">
           <Title titleClass="logo-title" />
         </div>
+      </div>
+      <div className="under-construction-body">
         <div className="logo-holder">
           <BeTheManateeLogo logoClass="logo" />
         </div>

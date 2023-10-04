@@ -29,6 +29,7 @@ body, #root {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
   width: 100vw;
   height: 100vh;
   /* background: hsl(222, 83%, 84%); */

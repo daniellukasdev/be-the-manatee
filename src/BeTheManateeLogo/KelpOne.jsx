@@ -4,16 +4,18 @@ export default function KelpOne({ kelpClass = "" }) {
   return (
     <div className={`${kelpClass}`}>
       <svg
-        width="84"
-        height="204"
+        // width="84"
+        // height="204"
         preserveAspectRatio="xMaxYMid meet"
-        // viewBox="0 0 84 204"
+        viewBox="-216 -96 312 312"
         version="1.1"
         style={{
           clipRule: "evenodd",
           fillRule: "evenodd",
           strokeLinejoin: "round",
           strokeMiterlimit: "2",
+          // width:"inherit",
+          // height:"inherit",
         }}
         id="kelp01"
       >
@@ -24,8 +26,12 @@ export default function KelpOne({ kelpClass = "" }) {
           <g id="g176" transform="matrix(0.682362,0,0,0.682362,338.951,18.726)">
             <path
               d="m 557.571,1191.97 c -1.65,-18.77 -1.742,-38.78 0.019,-60.09 13.458,-162.793 -29.249,-305.6 -29.249,-305.6 0,0 232.971,154.998 209.221,296.75 -26.873,160.39 46.731,334.09 46.731,334.09 0,0 -0.997,-0.27 -2.86,-0.85 -103.013,-57.99 -183.251,-151.7 -223.862,-264.3 z"
-              style={{ fill: "url(#_Linear5)" }}
-              id="pathkelp01"
+              style={{ 
+                fill: "url(#_Linear5)",
+                width:"inherit",
+                height:"inherit",
+              }}
+              id="path-kelp01"
             />
           </g>
         </g>
