@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c4f691f.css",
+    "main.css": "/static/css/main.bbf4904a.css",
     "main.js": "/static/js/main.d238992b.js",
     "static/media/Arial_Narrow_Bold.ttf": "/static/media/Arial_Narrow_Bold.c8a8e676a8fad484b77b.ttf",
     "index.html": "/index.html",
-    "main.3c4f691f.css.map": "/static/css/main.3c4f691f.css.map",
+    "main.bbf4904a.css.map": "/static/css/main.bbf4904a.css.map",
     "main.d238992b.js.map": "/static/js/main.d238992b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c4f691f.css",
+    "static/css/main.bbf4904a.css",
     "static/js/main.d238992b.js"
   ]
 }
