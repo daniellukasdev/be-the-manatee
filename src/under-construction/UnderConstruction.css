@@ -11,13 +11,14 @@
 }
 
 .under-construction-header {
+  container-type: inline-size;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
-  /* width: 100%; */
-  height: 20%;
+  width: 100%;
+  /* height: 20%; */
   /* height: auto; */
 }
 
@@ -27,7 +28,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
+  margin: 3rem 0 0 0;
   width: 100%;
   height: 80%;
   /* height: auto; */
@@ -44,8 +45,8 @@
 }
 
 .logo-title-holder {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
 }
 
 .logo-holder {
@@ -80,8 +81,8 @@
 @container (min-width: 400px) {
   
   .logo-title-holder {
-    width: 100%;
-    height: 24%;
+    /* width: 100%; */
+    /* height: 24%; */
   }
 
   .logo {
@@ -99,9 +100,9 @@
 @container (min-width: 750px) {
   
   .logo-title-holder {
-    padding: 3rem 0 0 0;
-    width: 100%;
-    height: 36%;
+    /* padding: 3rem 0 0 0; */
+    /* width: 100%; */
+    /* height: 36%; */
   }
 
   .logo {
